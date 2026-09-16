@@ -1,6 +1,6 @@
-# PantallasGrillas# 🎵 Spotify Player - Reverse Engineering
+# PantallasGrillas#  Spotify Player - Reverse Engineering
 
-## 📌 Descripción del proyecto
+##  Descripción del proyecto
 
 Este proyecto corresponde a una actividad de **Reverse Engineering**, cuyo objetivo es analizar una interfaz existente y realizar una maquetación similar utilizando los componentes y herramientas proporcionados por **Ionic y Angular**.
 
@@ -19,7 +19,7 @@ El objetivo principal no es replicar la funcionalidad completa de Spotify, sino 
 
 ---
 
-# 🛠️ Tecnologías utilizadas
+#  Tecnologías utilizadas
 
 - Ionic
 - Angular
@@ -30,7 +30,7 @@ El objetivo principal no es replicar la funcionalidad completa de Spotify, sino 
 
 ---
 
-# 📱 Pantalla maquetada
+#  Pantalla maquetada
 
 La pantalla desarrollada representa un reproductor de música inspirado en Spotify.
 
@@ -47,7 +47,7 @@ Toda la interfaz se encuentra organizada dentro de un `ion-grid`.
 
 ---
 
-# 🧱 Layout principal
+#  Layout principal
 
 Para contener la interfaz se utilizó:
 
@@ -80,7 +80,7 @@ ION-CONTENT
 
 ---
 
-# 📐 Sistema de grillas
+#  Sistema de grillas
 
 Ionic utiliza un sistema de grillas basado en **12 columnas**.
 
@@ -287,7 +287,7 @@ La segunda mitad contiene las opciones de compartir y lista de reproducción.
 
 ---
 
-# 🗺️ Representación general de la maquetación
+#  Representación general de la maquetación
 
 La distribución completa de la pantalla puede representarse de la siguiente manera:
 
@@ -342,7 +342,7 @@ La distribución completa de la pantalla puede representarse de la siguiente man
 
 ---
 
-# 🎨 Uso de ngStyle
+#  Uso de ngStyle
 
 Para cumplir con el uso de estilos dinámicos de Angular se utilizó la directiva:
 
@@ -392,7 +392,7 @@ De esta manera, Angular permite controlar estilos visuales desde el componente T
 
 ---
 
-# 🎨 Estilos SCSS
+#  Estilos SCSS
 
 El archivo:
 
@@ -416,7 +416,7 @@ La estructura principal de la interfaz se realiza mediante las grillas de Ionic,
 
 ---
 
-# 📱 Diseño responsive
+#  Diseño responsive
 
 La aplicación cuenta con ajustes mediante `@media` para adaptar algunos elementos cuando el ancho disponible de la pantalla disminuye.
 
@@ -447,7 +447,7 @@ Esto permite mantener una distribución adecuada en diferentes tamaños de panta
 
 ---
 
-# 📂 Estructura principal del proyecto
+#  Estructura principal del proyecto
 
 ```text
 SpotifyScreen/
@@ -481,7 +481,7 @@ SpotifyScreen/
 
 ---
 
-# ▶️ Ejecución del proyecto
+#  Ejecución del proyecto
 
 Primero se deben instalar las dependencias:
 
@@ -503,7 +503,7 @@ http://localhost:8100
 
 ---
 
-# ✅ Resultado
+#  Resultado
 
 Como resultado se obtuvo una interfaz inspirada en el reproductor de Spotify utilizando el sistema de grillas proporcionado por Ionic.
 
@@ -520,15 +520,13 @@ La pantalla demuestra la utilización de:
 
 ---
 
-# 👥 Integrantes
+#  Integrantes
 
 - Danna Valentina Pulido
 - Johan Stivens Rojas
+- Leidy Vanessa Zambrano
+- Edison Fabian Garzon
 
----
 
-# 📚 Actividad
 
-**Momento 2 - Reverse Engineering**
 
-Desarrollo de Aplicaciones Móviles Híbridas.
