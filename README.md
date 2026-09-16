@@ -522,7 +522,7 @@ La pantalla demuestra la utilización de:
 
 ![Maquetación de la pantalla](docs/maquetacion.png)
 
-(docs/grilla.png)
+![Grilla](docs/grilla.png)
 
 ---
 
