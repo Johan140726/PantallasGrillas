@@ -518,6 +518,12 @@ La pantalla demuestra la utilización de:
 - SCSS para complementar la presentación visual.
 - Diseño responsive para adaptar la interfaz.
 
+## Maquetación mediante grillas
+
+![Maquetación de la pantalla](docs/maquetacion.png)
+
+(docs/grilla.png)
+
 ---
 
 #  Integrantes
