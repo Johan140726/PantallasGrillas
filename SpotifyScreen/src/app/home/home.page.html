@@ -1,0 +1,112 @@
+<ion-content
+  [fullscreen]="true"
+  [ngStyle]="estiloFondo"
+>
+
+  <ion-grid class="spotify-grid">
+
+    <!-- FILA 1: Encabezado -->
+    <ion-row class="header-row ion-align-items-center">
+      <ion-col size="2">
+        <ion-icon name="chevron-down-outline"></ion-icon>
+      </ion-col>
+
+      <ion-col size="8" class="ion-text-center">
+        <p class="playing-from">PLAYING FROM LIBRARY</p>
+        <p class="library-name">Liked Songs</p>
+      </ion-col>
+
+      <ion-col size="2" class="ion-text-end">
+        <ion-icon name="ellipsis-horizontal"></ion-icon>
+      </ion-col>
+    </ion-row>
+
+
+    <!-- FILA 2: Carátula -->
+    <ion-row class="cover-row">
+      <ion-col size="12" class="ion-text-center">
+        <div
+          class="album-cover"
+          [ngStyle]="estiloCaratula"
+        >
+          <ion-icon name="musical-notes"></ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+
+
+    <!-- FILA 3: Información de la canción -->
+    <ion-row class="song-row ion-align-items-center">
+      <ion-col size="10">
+        <h1>Nombre de la canción</h1>
+        <p>Nombre del artista</p>
+      </ion-col>
+
+      <ion-col size="2" class="ion-text-end">
+        <ion-icon name="heart-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+
+
+    <!-- FILA 4: Barra de progreso -->
+    <ion-row class="progress-row">
+      <ion-col size="12">
+
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+
+        <div class="time-container">
+          <span>0:00</span>
+          <span>3:45</span>
+        </div>
+
+      </ion-col>
+    </ion-row>
+
+
+    <!-- FILA 5: Controles del reproductor -->
+    <ion-row class="controls-row ion-align-items-center">
+
+      <ion-col size="2" class="ion-text-center">
+        <ion-icon name="shuffle"></ion-icon>
+      </ion-col>
+
+      <ion-col size="2" class="ion-text-center">
+        <ion-icon name="play-skip-back"></ion-icon>
+      </ion-col>
+
+      <ion-col size="4" class="ion-text-center">
+        <div class="play-button">
+          <ion-icon name="play"></ion-icon>
+        </div>
+      </ion-col>
+
+      <ion-col size="2" class="ion-text-center">
+        <ion-icon name="play-skip-forward"></ion-icon>
+      </ion-col>
+
+      <ion-col size="2" class="ion-text-center">
+        <ion-icon name="repeat"></ion-icon>
+      </ion-col>
+
+    </ion-row>
+
+
+    <!-- FILA 6: Opciones inferiores -->
+    <ion-row class="bottom-row ion-align-items-center">
+
+      <ion-col size="6">
+        <ion-icon name="phone-portrait-outline"></ion-icon>
+      </ion-col>
+
+      <ion-col size="6" class="ion-text-end">
+        <ion-icon name="share-outline"></ion-icon>
+        <ion-icon name="list-outline"></ion-icon>
+      </ion-col>
+
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
